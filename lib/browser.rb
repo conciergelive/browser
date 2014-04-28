@@ -1,10 +1,6 @@
 require "set"
 require "yaml"
 
-require "browser/middleware"
-require "browser/middleware/context"
-require "browser/rails" if defined?(::Rails)
-
 require "browser/methods/ie"
 require "browser/methods/platform"
 require "browser/methods/mobile"
